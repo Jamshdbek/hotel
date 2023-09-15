@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import image from '../assets/backround.png'
+import image from '../assets/backround.jpg'
 import { useNavigate } from 'react-router-dom';
 function Home() {
   const Button = styled.div`

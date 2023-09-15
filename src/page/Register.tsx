@@ -4,7 +4,7 @@ import { Formik, Form, Field } from 'formik';
 import ServicesApi from '../services/services';
 import { Button } from '../components';
 import styled  from "styled-components";
-import img from "../assets/backround.png"
+import img from "../assets/backround.jpg"
 import { useState } from 'react';
 function Register() {
   const Header = styled.header`
