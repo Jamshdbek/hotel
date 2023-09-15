@@ -3,7 +3,7 @@
 import { Formik, Form, Field } from 'formik';
 import ServicesApi from '../services/services';
 import { Button } from '../components';
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 function Login() {
   const Header = styled.header`
   width: 100%;
@@ -15,12 +15,6 @@ function Login() {
     padding: 0px 10vh 0px 10vh;
     justify-content: space-between;
   `
-  const Title = styled.h1`
-  font-size: 1.5em;
-  text-align: center;
-  color: #4faabf;
-`;
-
   const Submit = (value: any) => {
     ServicesApi.Login(value).then((res) => {
       if (res.status === 200) {
@@ -46,7 +40,7 @@ function Login() {
 
             <Field name="email" placeholder="email..." type="email" className={"input_form"} />
             <br />
-            <Field name="password"  placeholder="password..." type="text" className={"input_form"} />
+            <Field name="password" placeholder="password..." type="text" className={"input_form"} />
             <br />
             <Button type="submit" style={{ marginTop: "20px" }}>
               Submot

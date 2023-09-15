@@ -3,7 +3,7 @@
 import { Formik, Form, Field } from 'formik';
 import ServicesApi from '../services/services';
 import { Button } from '../components';
-import styled, { css } from "styled-components";
+import styled  from "styled-components";
 import img from "../assets/backround.png"
 import { useState } from 'react';
 function Register() {

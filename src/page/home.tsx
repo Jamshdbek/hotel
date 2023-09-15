@@ -1,6 +1,3 @@
-import React from 'react'
-
-// import './Home.css'
 import styled from 'styled-components';
 import image from '../assets/backround.png'
 import { useNavigate } from 'react-router-dom';
@@ -46,7 +43,6 @@ align-items: center;
         </div>
       </Header>
       <div>
-        Hotel
       </div>
     </Well>
   )
