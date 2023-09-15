@@ -1,5 +1,5 @@
 
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 const Header = ({ image }: any) => {
     const HeaderWrap = styled.header`
   width: 100%;
